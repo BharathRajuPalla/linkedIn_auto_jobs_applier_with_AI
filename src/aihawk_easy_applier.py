@@ -435,7 +435,7 @@ class AIHawkEasyApplier:
         while True:
             try:
                 timestamp = int(time.time())
-                file_path_pdf = os.path.join(folder_path, f"CV_{timestamp}.pdf")
+                file_path_pdf = os.path.join(folder_path, f"Bharath_Raju_Palla_{job.title}.pdf")
                 logger.debug(f"Generated file path for resume: {file_path_pdf}")
 
                 logger.debug(f"Generating resume for job: {job.title} at {job.company}")
